@@ -1,4 +1,4 @@
-package com.hospitality.hotelreservation.service;
+package com.hospitality.hotelreservation.service.payment;
 
 import com.hospitality.hotelreservation.entity.Guest;
 import com.hospitality.hotelreservation.exception.PaymentException;

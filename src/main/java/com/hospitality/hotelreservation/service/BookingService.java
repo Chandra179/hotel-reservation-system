@@ -9,6 +9,7 @@ import com.hospitality.hotelreservation.exception.RoomException;
 import com.hospitality.hotelreservation.repository.GuestRepository;
 import com.hospitality.hotelreservation.repository.ReservationRepository;
 import com.hospitality.hotelreservation.repository.RoomRepository;
+import com.hospitality.hotelreservation.service.payment.PaymentGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
