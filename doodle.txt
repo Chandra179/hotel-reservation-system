@@ -1,0 +1,12 @@
+guest can have many reservation
+a single reservation can only have one room
+
+example:
+1. reservation(1, room_a, 12/12/2000, 14/12/2000)
+2. reservation(2, room_a, 13/12/2000, 19/12/2000)
+3. reservation(3, room_a, 01/01/2001, 07/01/2001)
+
+a new customer want to reserve at 15/12/200 - 17/12/2000 which cannot because
+there are already a reservation that checkout at 19/12/2000. Create the logic in java to
+check room availability with this param (room_id, checkin date, checkout date)
+
